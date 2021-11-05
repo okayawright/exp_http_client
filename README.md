@@ -1,5 +1,7 @@
 # Simple REST client library in Go
 
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=okayawright_exp_http_client&metric=alert_status)](https://sonarcloud.io/dashboard?id=okayawright_exp_http_client)
+
 ## Context
 The goal was to make a minimal library that could be easily reused and expanded in other projects. It doesn't rely on any third-party modules except for [mapstructure](https://github.com/mitchellh/mapstructure) which is used in the test implementation. Neither does it feature more complex features that are expected to be found in mature clients (e.g. HATEOS support, metrics, Swagger support, authentication, etc).
 
